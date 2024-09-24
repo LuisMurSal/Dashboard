@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.home-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    background-color: #131313;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 220px;
+    flex: 1;
+    padding: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Espacia los contenedores horizontalmente */
+    margin-top: 20px; /* Espacio entre la bienvenida y los contenedores */
+  }
+  
+  .box {
+    flex: 1; /* Cada contenedor ocupa el mismo espacio */
+    margin: 0 10px; /* Espacio entre los contenedores */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto */
+  }
+  
